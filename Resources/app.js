@@ -214,7 +214,7 @@ var decimalPointButton = Titanium.UI.createButton({
 
 win.add(decimalPointButton);
 
-/* The Minus button enables the user to indicate a 
+/* The Minus button enables the user to indicate that
    subtraction is the next operation to execute. */
 var minusButton = Titanium.UI.createButton({
 	title: '-',
@@ -226,7 +226,7 @@ var minusButton = Titanium.UI.createButton({
 
 win.add(minusButton);
 
-/* The Plus button enables the user to indicate a 
+/* The Plus button enables the user to indicate that 
    addition is the next operation to execute. */
 var plusButton = Titanium.UI.createButton({
 	title: '+',
@@ -249,7 +249,7 @@ var equalsButton = Titanium.UI.createButton({
 });
 win.add(equalsButton);
 
-/* The Divide button enables the user to indicate a 
+/* The Divide button enables the user to indicate that
    division is the next operation to execute. */
 var divideButton = Titanium.UI.createButton({
 	title: '/',
@@ -260,8 +260,8 @@ var divideButton = Titanium.UI.createButton({
 });
 win.add(divideButton);
 
-/* The Multiply button enables the user to indicate a 
-   multiplicatoin is the next operation to execute. */
+/* The Multiply button enables the user to indicate that
+   multiplication is the next operation to execute. */
 var multiplyButton = Titanium.UI.createButton({
 	title: '*',
 	top: 80,
