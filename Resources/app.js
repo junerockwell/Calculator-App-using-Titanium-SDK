@@ -1,7 +1,7 @@
 /* Author: J. H. Rockwell
  * 
  * Description: This is a calculator app that has
- * the most basic operation: addition, subtraction
+ * the most basic operations: addition, subtraction
  * multiplication and division. 
  * 
  * Devices: iPhone and Android
@@ -41,15 +41,15 @@ var renew = true;
 var nextOperator = '';
 
 /* Indicates that there is already a decimal point. But 
-   during the intialize launch, there should be no 
+   during the intial launch, there should be no 
    expression so this is initialized to false. */
 var decimalPointConcatenated = false;
 
 /*** The one and only textfield ***/
-/* This textfield displays a response to the users work.
+/* This textfield displays a response to the user's work.
    As all textfields, it takes in strings. So all numbers
-   entered will be a concatenations of numbers pressed. 
-   When calculations occur, its current value gets parsed
+   entered will be concatenations of numbers pressed. 
+   When a calculation occurs, its current value gets parsed
    to a float value and converted back to a string. This
    textbox also responds to all the buttons displayed and
    not to its corresponding OS' keyboard. */
@@ -202,7 +202,7 @@ var bigWideZeroButton = Titanium.UI.createButton({
 win.add(bigWideZeroButton);
 
 /* The Decimal Point Button enables the user to produce a 
-   character of '.' to be concatenated to the
+   character, '.' to be concatenated to the
    current value of the textbox. */
 var decimalPointButton = Titanium.UI.createButton({
 	title: '.',
@@ -239,7 +239,7 @@ win.add(plusButton);
 
 /* The Equals button enables the user to indicate the
    previously chosen operation should be executed and
-   display a result. */
+   display a result to the textbox. */
 var equalsButton = Titanium.UI.createButton({
 	title: '=',
 	top: 305,
@@ -279,6 +279,7 @@ clearButton.addEventListener('click', function(e) {
 	textbox.value = '0'; // Resets the textbox to '0'
 	renew = true; 		 // Indicates a new expression should be made
 	nextOperator = '';   // Resets so that there was no previous operation to do
+	decimalPointConcatenated = false;
 });
 
 bigWideZeroButton.addEventListener('click', function(e) {
@@ -528,9 +529,13 @@ function doOperation(operator, current)
 	   user of the result. */
 	textbox.value = answer.toString();
 	
-	/* nextOperator gets the newly indicated operator to be
+	/* Variable nextOperator gets the newly indicated operator to be
 	   used to evaluate the next expression. */
 	nextOperator = operator;
+	
+	/* Indicate that decimal point can be added. */
+	decimalPointConcatenated = false;
+	
 }
 
 win.open();
