@@ -1,0 +1,9 @@
+#appname:Calculator
+#appid:com.jhrockwell.Calculator
+#type:mobile
+#guid:e7719778-672e-40c0-8e72-6d943789a1a5
+#version:1.0
+#publisher:J. H. Rockwell
+#url:http://jhrockwell.com
+#image:appicon.png
+#desc:Calculator built using the Titanium SDK that deploys to iPhone and Android Platforms
