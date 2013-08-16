@@ -380,7 +380,12 @@ decimalPointButton.addEventListener('click', function(e) {
 	// '.' to the textbox value.
 	else 
 	{
+		// There must be a global indication that 
+		// one decimal point has been included to
+		// the current expression so that there
+		// should not be more than one decimal
 		decimalPointConcatenated = true;
+		// Concatenate the '.'
 		buttonFunction('.');
 	}
 });
