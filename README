@@ -8,6 +8,12 @@ Built with Titanium SDK version 3.1.1
 Machine: MacBook OSX Mountain Lion
 Requires Titanium Mobile SDK 1.8.0+
 
+Purpose(s) of this project:
+1. Explore and get to know Titanium Studio
+2. Install and link iOS and Android SDK from 2.1 to 4.3
+3. Play with various UI elements. In this case, one Titanium Textfield and Titanium buttons.
+4. To see the benefits of the idea of "maintain one project and deploy to many platforms."
+
 ----------------------------------
 Stuff our legal folk make us say:
 
