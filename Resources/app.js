@@ -11,7 +11,7 @@
  * Divide - indicates the division operation
  * Multiply - indicates the multiplication operation
  * Minus - indicates the subtraction operation
- * Plus - indications the addition operation
+ * Plus - indicates the addition operation
  * 
  * Numbers from 0-9 - enables the user to type a number
  * Decimal - enables the user to add a decimal point
