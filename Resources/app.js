@@ -277,9 +277,9 @@ clearButton.addEventListener('click', function(e) {
 	/* This is the listener for the Clear Button. */
 	
 	textbox.value = '0'; // Resets the textbox to '0'
-	renew = true; 		 // Indicates a new expression should be made
+	renew = true; 		 // Indicate that a new expression should be made
 	nextOperator = '';   // Resets so that there was no previous operation to do
-	decimalPointConcatenated = false;
+	decimalPointConcatenated = false; // Indicate that a decimal point can now be added
 });
 
 bigWideZeroButton.addEventListener('click', function(e) {
@@ -533,7 +533,7 @@ function doOperation(operator, current)
 	   used to evaluate the next expression. */
 	nextOperator = operator;
 	
-	/* Indicate that decimal point can be added. */
+	/* Indicate that decimal point can now be added. */
 	decimalPointConcatenated = false;
 	
 }
