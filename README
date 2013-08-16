@@ -2,7 +2,7 @@ Calculator App built using Titanium SDK
 
 Description: This is a calculator app that has the most basic operations: addition, subtraction, multiplication and division for both whole numbers and decimal numbers.
 
-Devices: iPhone SDK 5+ and Android SDK 2.1 to 4.3 (only).
+Intended Devices: iPhone SDK 5+ and Android SDK 2.1 to 4.3 (only).
 
 Built with Titanium SDK version 3.1.1
 Machine: MacBook OSX Mountain Lion
