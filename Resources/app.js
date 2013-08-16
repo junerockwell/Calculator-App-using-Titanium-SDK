@@ -1,10 +1,10 @@
 /* Author: J. H. Rockwell
  * 
  * Description: This is a calculator app that has
- * the most basic operations: addition, subtraction
+ * the most basic operations: addition, subtraction,
  * multiplication and division. 
  * 
- * Devices: iPhone and Android
+ * Devices: iPhone and Android (only)
  * 
  * Buttons:
  * Clear - clears the textbox and resets all variables
