@@ -13,6 +13,7 @@ Purpose(s) of this project:
 2. Install and link iOS and Android SDK from 2.1 to 4.3
 3. Play with various UI elements. In this case, one Titanium Textfield and 17 Titanium buttons (Clear, 0-9, plus, minus, multiply, divide, equals and a decimal point).
 4. To see the benefits of the idea of "maintain one project and deploy to many platforms."
+5. I wanted to challenge myself and see if I can even make a basic calculator. It's not perfect, but it works for the most part.
 
 ----------------------------------
 Stuff our legal folk make us say:
