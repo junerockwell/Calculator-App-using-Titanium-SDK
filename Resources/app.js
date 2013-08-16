@@ -489,7 +489,7 @@ function doOperation(operator, current)
 	   in the new operation to be executed and the current 
 	   expression appearing in the textbox. */
 	  
-	/* Since current equals to the current textbox value, it is 
+	/* Since variable current equals to the current textbox value, it is 
 	   a string. So it must be converted into a floating point
 	   value in order to be mathematically used. */
 	current = parseFloat(current);
