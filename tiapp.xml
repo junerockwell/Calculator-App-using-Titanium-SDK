@@ -4,9 +4,9 @@
     <name>Calculator</name>
     <version>1.0</version>
     <publisher>J. H. Rockwell</publisher>
-    <url>http://jhrockwell.com</url>
+    <url>http://junerockwell.com</url>
     <description>Calculator built using the Titanium SDK that deploys to iPhone and Android Platforms</description>
-    <copyright>2013 by J. H. Rockwell</copyright>
+    <copyright>2013 by June Rockwell</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
